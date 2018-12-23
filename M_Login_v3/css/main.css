@@ -25,6 +25,16 @@
   src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
 }
 
+@font-face {
+  font-family: Bauhaus93;
+  src: url('../fonts/Bauhaus93/Bauhaus93.ttf'); 
+}
+
+@font-face {
+  font-family: ThirstyScriptBlack;
+  src: url('../fonts/ThirstyScriptBlack/ThirstyScriptBlack.otf'); 
+}
+
 
 
 
@@ -70,8 +80,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .m {
-  height: 100px
-
+  height: 100px;
 }
 
 
@@ -80,6 +89,14 @@ p {
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
+	margin: 0px;
+}
+
+p1 {
+	font-family: Bauhaus93;
+	font-size: 100px;
+	line-height: 1.7;
+	color: #3f51b5;
 	margin: 0px;
 }
 
